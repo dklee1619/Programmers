@@ -20,6 +20,7 @@ class Solution {
                 for (l in 0..size2 - 1) {
                     if (k == array[l]) {
                         answer = answer.plus(k)
+                    
                     }
                     if (l == size2 - 1) {
                         state = 1
